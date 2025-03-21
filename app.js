@@ -83,11 +83,74 @@ function searchCards(query) {
 }
 
 // Initialize the application
+function createFilterButton(type, text) {
+    const button = document.createElement('button');
+    button.className = 'filter-btn';
+    button.dataset.filter = type;
+
+    const icon = document.createElement('i');
+    switch(type) {
+        case 'free':
+            icon.className = 'fas fa-play-circle';
+            break;
+        case 'premium':
+            icon.className = 'fas fa-crown';
+            break;
+        case 'telegram':
+            icon.className = 'fab fa-telegram';
+            break;
+        case 'apps':
+            icon.className = 'fas fa-mobile-alt';
+            break;
+        default:
+            icon.className = 'fas fa-list';
+    }
+    icon.style.marginLeft = '8px';
+
+    button.appendChild(icon);
+    const textSpan = document.createElement('span');
+    textSpan.textContent = text;
+    button.appendChild(textSpan);
+
+    return button;
+}
+
 async function initApp() {
     const data = await loadData();
     if (!data) return;
 
     const grid = document.getElementById('websiteGrid');
+    const filterContainer = document.querySelector('.filter-container');
+
+    // Clear existing filter buttons
+    filterContainer.innerHTML = '';
+
+    // Add filter buttons
+    const filters = [
+        { type: 'all', text: 'همه' },
+        { type: 'free', text: 'سایت‌های رایگان' },
+        { type: 'premium', text: 'سایت‌های اشتراکی' },
+        { type: 'telegram', text: 'ربات‌های تلگرام' },
+        { type: 'apps', text: 'اپلیکیشن‌ها' }
+    ];
+
+    filters.forEach(filter => {
+        const button = createFilterButton(filter.type, filter.text);
+        filterContainer.appendChild(button);
+    });
+
+    // Set first button as active
+    filterContainer.firstElementChild.classList.add('active');
+
+    // Add event listeners to filter buttons
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            filterCards(button.dataset.filter);
+        });
+    });
 
     // Add free websites
     data.websites.free.forEach(website => {
@@ -109,21 +172,12 @@ async function initApp() {
         grid.appendChild(createCard(app, 'apps'));
     });
 
-    // Add event listeners
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    filterButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
-            filterCards(button.dataset.filter);
-        });
-    });
-
+    // Add search functionality
     const searchInput = document.getElementById('searchInput');
     searchInput.addEventListener('input', (e) => {
         searchCards(e.target.value);
     });
 }
 
-// Start the application
-document.addEventListener('DOMContentLoaded', initApp);
+// Initialize the app
+initApp();
