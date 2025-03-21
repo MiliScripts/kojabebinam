@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مجموعه سایت‌های دانلود فیلم و سریال</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1>مجموعه سایت‌های دانلود فیلم و سریال</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="جستجو..." class="search-input">
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">همه</button>
+                <button class="filter-btn" data-filter="free">سایت‌های رایگان</button>
+                <button class="filter-btn" data-filter="premium">سایت‌های اشتراکی</button>
+                <button class="filter-btn" data-filter="telegram">ربات‌های تلگرام</button>
+                <button class="filter-btn" data-filter="apps">اپلیکیشن‌ها</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="websiteGrid" class="grid"></div>
+    </main>
+
+    <footer class="footer">
+        <p>محتوای این وب‌سایت از منابع مختلف جمع‌آوری شده است</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

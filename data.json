@@ -1,0 +1,427 @@
+{
+    "websites": {
+      "free": [
+        {
+          "name": "Cinema Plus",
+          "url": "https://cinemaplus-app.vercel.app",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Cineby",
+          "url": "https://www.cineby.app",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Donyaye Serial",
+          "url": "https://donyayeserial.com",
+          "description": "دانلود فیلم و سریال"
+        },
+        {
+          "name": "Almas Movie",
+          "url": "https://almasmovie.website",
+          "description": "دانلود فیلم و سریال"
+        },
+        {
+          "name": "Mobo Movies",
+          "url": "https://mobomovies.co",
+          "description": "دانلود فیلم و سریال"
+        },
+        {
+          "name": "Rexcima",
+          "url": "https://rexcima.com",
+          "description": "دانلود فیلم و سریال"
+        },
+        {
+          "name": "Cinema Tika",
+          "url": "https://cinema-tika.com",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Mydima",
+          "url": "https://mydima.sbs",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "F2Media",
+          "url": "https://www.f2medi.ir",
+          "description": "پخش آنلاین فیلم و سریال (نیمه اشتراکی)"
+        },
+        {
+          "name": "Aiofilm",
+          "url": "https://aiofilm.com",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Bartarmoviz",
+          "url": "https://bartarmoviz.com",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Zedmovie9",
+          "url": "https://zedmovie9.fun",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Miramovie",
+          "url": "https://miramovie.top",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Azintv",
+          "url": "https://azintv.site",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Moviepovie",
+          "url": "https://moviepovie.com",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Clubmovies4",
+          "url": "https://clubmovies4.fun",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "30namachi",
+          "url": "https://30namachi.com",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Acemovies",
+          "url": "https://acemovies.bid",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Goldmovieez",
+          "url": "https://goldmovieez.sbs",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Bandmoviez",
+          "url": "https://bandmoviez.pro",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Mword",
+          "url": "https://mword.cfd",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Mercimovie",
+          "url": "https://mercimovie.info",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Animesp",
+          "url": "https://animesp.xyz",
+          "description": "پخش آنلاین انیمه"
+        },
+        {
+          "name": "Boxmovie",
+          "url": "https://boxmovie.github.io",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "FreeMovie",
+          "url": "https://B2n.ir/FreeMovie",
+          "description": "پخش آنلاین فیلم و سریال"
+        },
+        {
+          "name": "Cinema Plus (Freemovie)",
+          "url": "https://m4tinbeigi-official.github.io/freemovie/new-movie/",
+          "description": "پخش آنلاین فیلم و سریال"
+        }
+      ],
+      "premium": [
+        {
+          "name": "Digimovies",
+          "url": "https://digimoviez.com",
+          "description": "دانلود فیلم و سریال (نیمه اشتراکی)"
+        },
+        {
+          "name": "Night Movie",
+          "url": "https://nightmovie.com",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Ava Movie",
+          "url": "https://avamovie.shop",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "30nama",
+          "url": "https://30nama.com",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Filmkio",
+          "url": "https://filmkio.run",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Irofilmz",
+          "url": "https://irofilmz.com",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Aramovie",
+          "url": "https://aramovie.top",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "9movie",
+          "url": "https://9movie.tv",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Fardadl HD",
+          "url": "https://fardadl-hd.com",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Movie Zone",
+          "url": "https://movie-zone.co",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Bluemoviee",
+          "url": "https://bluemoviee.com",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Imovies DL",
+          "url": "https://imovies-dl.com",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "EmpireBestTv",
+          "url": "https://EmpireBestTv.Com",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Mywir57",
+          "url": "https://mywir57.sbs",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Alefmovie7",
+          "url": "https://alefmovie7.pw",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Nikimoviez",
+          "url": "https://nikimoviez.sbs",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "479kingmovi",
+          "url": "https://479kingmovi.shop",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        },
+        {
+          "name": "Mymoviz",
+          "url": "https://mymoviz.co",
+          "description": "دانلود فیلم و سریال (اشتراکی)"
+        }
+      ]
+    },
+    "telegram_bots": [
+      {
+        "name": "Donyaye Serial Bot",
+        "username": "@donyayeserialbot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Megamovi Bot",
+        "username": "@MegamoviBot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "TenFlix Bot",
+        "username": "@TenFlixBot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Film Bazzan Bot",
+        "username": "@film_bazzan_bot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "FileMovie Bot",
+        "username": "@FileMovieBot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Filmgir Bot",
+        "username": "@filmgirbot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "AlphaDL Bot",
+        "username": "@AlphaDLBot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "SearchMovies Bot",
+        "username": "@SearchMoviesBot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Dooq Bot",
+        "username": "@dooqbot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Papkorn Bot",
+        "username": "@PapkornBot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "MTvDB Bot",
+        "username": "@MTvDBbot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "TeleLeecher Bot",
+        "username": "@TeleLeecherbot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Miramovie Bot",
+        "username": "@miramoviebot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Movieo Bot",
+        "username": "@movieo_bot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Streamwide Bot",
+        "username": "@streamwidebot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "FanerSeries Bot",
+        "username": "@FanerSeriesbot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Filmhauplodi Bot",
+        "username": "@Filmhauplodi_Bot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "BetaMovie Bot",
+        "username": "@BetaMovie_Bot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Filmcast Bot",
+        "username": "@filmcast_bot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "Redmoviesdl Bot",
+        "username": "@redmoviesdl_bot",
+        "description": "ربات دانلود فیلم و سریال"
+      },
+      {
+        "name": "TheRoma Bot",
+        "username": "@TheRoma_Bot",
+        "description": "ربات دانلود فیلم و سریال"
+      }
+    ],
+    "applications": [
+      {
+        "name": "دیجی موویز",
+        "url": "https://digimoviez.com/app-landing",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "بلبل جان",
+        "url": "https://losvar.github.io/solid/bolboljan2.html",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "مووی باز",
+        "url": "https://play.google.com/store/apps/details?id=com.idea.moviebaz24",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "جم مووی",
+        "url": "https://yek.link/gemovies.net",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "فیلمکیو",
+        "url": "https://filmkio.run/wp-content/uploads/2024/02/FilmKio1.5.apk",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "فلامینگو",
+        "url": "https://play.google.com/store/apps/details?id=com.filamingo.app",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال (نیمه اشتراکی)"
+      },
+      {
+        "name": "مووی باکس (ایرانفلیکس)",
+        "url": "https://zil.ink/movieboxapp",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "لیموفیلم (نارنج)",
+        "url": "https://play.google.com/store/apps/details?id=com.narenji.org&hl=en_GB",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "مووی جوان",
+        "url": "https://moviejavan.website",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "الماس مووی",
+        "url": "https://zil.ink/almasmovieapp",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "فیلمجو",
+        "url": "http://dlas3.tdmmov.xyz/f3.apk",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "اسکل خان",
+        "url": "https://oskolkhan.site/OskolKhan-1.9.1.apk",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "کینگ مووی",
+        "url": "https://king-movie.net/app.apk",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "نکست مووی",
+        "url": "https://nextmovieapp.xyz/nextmovie.apk",
+        "platform": "Android",
+        "description": "اپلیکیشن دانلود و تماشای آنلاین فیلم و سریال"
+      },
+      {
+        "name": "Stremio",
+        "url": "https://stremio.com",
+        "platform": "Multi-platform",
+        "description": "اپلیکیشن تماشای آنلاین فیلم و سریال از طریق تورنت"
+      }
+    ]
+  }
