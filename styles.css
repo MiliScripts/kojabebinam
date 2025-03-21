@@ -161,12 +161,18 @@ body {
 
     .filter-btn {
         width: 100%;
-        padding: 0.7rem 1rem;
-        font-size: 1rem;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.9rem;
     }
 
     .grid {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 1rem;
+    }
+
+    .card {
+        background-color: #000000;
+        padding: 1.2rem;
     }
 }
 
@@ -181,10 +187,20 @@ body {
 
     .filter-btn {
         font-size: 0.8rem;
-        padding: 0.3rem 0.6rem;
+        padding: 0.5rem 0.7rem;
     }
 
     .grid {
         grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .card a {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
     }
 }
